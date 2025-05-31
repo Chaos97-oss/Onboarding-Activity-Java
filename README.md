@@ -25,5 +25,5 @@ Retrieve a list of all products.
     "price": 999.99,
     "stock": 10
   },
-...
 ]
+```
