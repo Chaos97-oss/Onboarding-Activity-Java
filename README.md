@@ -123,6 +123,7 @@ Use Postman or curl to test endpoints at http://localhost:8081/api/v1/products.
 Postman Documentation
 
 Interactive API documentation is available on Postman:
+https://documenter.getpostman.com/view/43208616/2sB2qgdyPD
 
 
 
