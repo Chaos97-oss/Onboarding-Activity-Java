@@ -25,20 +25,5 @@ Retrieve a list of all products.
     "price": 999.99,
     "stock": 10
   },
+...
 ]
-
-### 2. GET /products
-Retrieve a list of all products.
-
-- **URL:** `/api/v1/products`
-- **Method:** GET
-- **Response:**
-```json{
-  "id": 1,
-  "name": "Laptop",
-  "description": "A powerful laptop",
-  "price": 999.99,
-  "stock": 10
-}
-
-
