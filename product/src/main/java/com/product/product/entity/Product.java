@@ -1,5 +1,7 @@
 package com.product.product.entity;
 
+import java.math.BigDecimal;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -39,7 +41,7 @@ public class Product {
     @DecimalMin(value = "0.01", message = "Price must be greater than zero")
     @Digits(integer=8, fraction=2, message = "Price format invalid (e.g., 12345678.99).")
     @Column(nullable = false, precision = 10, scale = 2)
-    private double price;
+    private BigDecimal price;
 
     @NotNull(message = "Product quantity is required.")
     @Min(value = 1, message = "Quantity must be greater than zero")
